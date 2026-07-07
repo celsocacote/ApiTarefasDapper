@@ -2,8 +2,8 @@ API de Tarefas com Dapper
 Primeira API REST feita estudando C# com Macoratti.
 
 Stack
-.NET 8
-ASP.NET Core Minimal API
+.NET 6
+ASP.NET Core API
 Dapper
 SQL Server
 Como rodar
