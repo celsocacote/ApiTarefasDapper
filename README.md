@@ -1,6 +1,6 @@
 # API de Tarefas com Dapper
 
-Minha primeira API REST em C#/.NET 8 feita durante os estudos do curso C# Essencial do Macoratti.
+Minha primeira API REST em C#/.NET 6 feita durante os estudos do curso C# Essencial do Macoratti.
 
 ## 🎯 Objetivo
 Aprender os fundamentos de ASP.NET Core Minimal API, Dapper e SQL Server criando um CRUD de tarefas.
@@ -20,7 +20,7 @@ Aprender os fundamentos de ASP.NET Core Minimal API, Dapper e SQL Server criando
 
 ## 📚 O que aprendi
 - Criar endpoints GET, POST, PUT, DELETE
-- Conectar C# com SQL Server usando Dapper
+- Conectar C# com SQLite usando Dapper
 - Injeção de dependência nativa do .NET
 - Estrutura de projeto API
 
