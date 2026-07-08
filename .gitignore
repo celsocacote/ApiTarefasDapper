@@ -4,3 +4,6 @@ appsettings.Development.json
 *.user
 *.suo
 .vs/
+*.db
+*.sqlite
+*.sqlite3

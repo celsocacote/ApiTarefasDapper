@@ -70,7 +70,7 @@ namespace MacorattiC_EssencialAula1.Repositories
             {
                 using (var connection = _db.Connection)
                 {
-                    var command = @"select count(*) from tarefas
+                    var command = @"select count(*) from tarefas;
                                 select * from tarefas";
                     var reader = await connection.QueryMultipleAsync(sql: command);
 
