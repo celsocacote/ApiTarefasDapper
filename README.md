@@ -1,21 +1,35 @@
 # API de Tarefas com Dapper
 
-Primeira API REST feita estudando C# com Macoratti.
+Minha primeira API REST em C#/.NET 8 feita durante os estudos do curso C# Essencial do Macoratti.
 
-## Stack
-- .NET 8
+## 🎯 Objetivo
+Aprender os fundamentos de ASP.NET Core Minimal API, Dapper e SQL Server criando um CRUD de tarefas.
+
+## 🛠️ Tech Stack
+- .NET 6
 - ASP.NET Core Minimal API
 - Dapper
-- SQL Server
+- SQLite
 
-## Como rodar
-1. Clone o repo
-2. Ajuste a connection string em `appsettings.json`
-3. Roda `dotnet run`
+## 🚀 Como rodar o projeto
+1. Clone o repositório
+2. Crie um banco no SQLite chamado `tarefas`
+3. Rode o script `scripts/tabela_tarefas.sql` para criar a tabela
+4. Ajuste a `ConnectionString` no `appsettings.json`
+5. Execute: `dotnet run`
 
-## Próximos passos
-- [ ] Migrar de Dapper pra EF Core
-- [ ] Add Auth JWT
-- [ ] Testes xUnit
+## 📚 O que aprendi
+- Criar endpoints GET, POST, PUT, DELETE
+- Conectar C# com SQL Server usando Dapper
+- Injeção de dependência nativa do .NET
+- Estrutura de projeto API
 
-Aprendendo backend .NET do zero ao Pleno em 6 meses.
+## 📈 Roadmap de evolução
+- [ ] Migrar de Dapper para Entity Framework Core
+- [ ] Adicionar FluentValidation
+- [ ] Implementar Autenticação JWT
+- [ ] Criar testes com xUnit
+- [ ] Dockerizar a aplicação
+
+---
+Estudando backend .NET do zero ao Pleno em 6 meses.
